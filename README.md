@@ -1,12 +1,21 @@
-# React + Vite
+# Context API Theme Switcher (Mini Project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **mini React project** that demonstrates how to use the **Context API** to implement a **theme switcher** using **Tailwind CSS**.
 
-Currently, two official plugins are available:
+### 💡 Features:
+- Toggle between **Dark Mode** and **Light Mode**
+- Uses **React Context API** to manage global theme state
+- Simple and reusable structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🔧 Technologies Used:
+- React (with functional components & hooks)
+- Tailwind CSS (for utility-first styling)
+- Context API (for global state management)
 
-## Expanding the ESLint configuration
+### 📂 Project Purpose:
+This is the **second mini project** built to practice **Context API** and understand **global state management** in a React app. The core idea was to build a working theme switcher functionality from scratch.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+✅ **Clean and scalable structure** for beginners to understand context and dynamic styling.
+
