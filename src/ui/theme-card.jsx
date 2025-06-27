@@ -4,7 +4,7 @@ export default function Card() {
     return (
         <div className="w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="/">
-                <img className="p-8 rounded-t-lg" src={ "/public/giphy.gif" ?? "https://media.licdn.com/dms/image/v2/D4D03AQE6CfgEeGRXkg/profile-displayphoto-shrink_200_200/B4DZYDFcFzHwAc-/0/1743808480243?e=1756339200&v=beta&t=VDGA_nq8blY2lh4aiFQb4hukjr6WmB-HwRGE_h_CzyA"} alt="product_image1" />
+                <img className="p-8 rounded-t-lg" src={ "https://github.com/Shehryar-dev/context-api-p2/blob/main/public/giphy.gif?raw=true" ?? "https://media.licdn.com/dms/image/v2/D4D03AQE6CfgEeGRXkg/profile-displayphoto-shrink_200_200/B4DZYDFcFzHwAc-/0/1743808480243?e=1756339200&v=beta&t=VDGA_nq8blY2lh4aiFQb4hukjr6WmB-HwRGE_h_CzyA"} alt="product_image1" />
             </a>
             <div className="px-5 pb-5">
                 <a href="/">
