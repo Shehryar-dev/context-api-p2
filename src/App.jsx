@@ -9,10 +9,16 @@ import Card from './ui/theme-card'
 function App() {
   const [themeMode, setThemeMode] = useState('light')
   const lightTheme = () => {
+    // const body = document.querySelector('body');
+    // body.classList.remove('dark bg-gray-800');
+    // body.classList.add('light bg-white');
     setThemeMode('light')
     // document.documentElement.classList.remove('dark')
   }
   const darkTheme = () => {
+    // const body = document.querySelector('body');
+    // body.classList.remove('light bg-white');
+    // body.classList.add('dark bg-gray-800');
     setThemeMode('dark')
     // document.documentElement.classList.add('dark')
   }
